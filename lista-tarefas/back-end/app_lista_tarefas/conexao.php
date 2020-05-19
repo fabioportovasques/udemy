@@ -5,7 +5,7 @@ class Conexao {
 	private $host = 'localhost';
 	private $dbname = 'php_com_pdo';
 	private $user = 'root';
-	private $pass = 'F@bio102030';
+	private $pass = '';
 
 	public function conectar() {
 		try {
