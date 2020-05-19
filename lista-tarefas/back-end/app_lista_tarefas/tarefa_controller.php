@@ -6,9 +6,12 @@
 	require "/var/www/html/app_lista_tarefas/conexao.php";
 	*/
 
-	require_once 'C:\xampp\htdocs\udemy\lista-tarefas\back-end\app_lista_tarefas\tarefa.model.php';
-	require_once 'C:\xampp\htdocs\udemy\lista-tarefas\back-end\app_lista_tarefas\tarefa.service.php';
-	require_once 'C:\xampp\htdocs\udemy\lista-tarefas\back-end\app_lista_tarefas\conexao.php';
+	require_once 
+	'/var/www/html/udemy/php-pdo/udemy/lista-tarefas/back-end/app_lista_tarefas/tarefa.model.php';
+	require_once 
+	'/var/www/html/udemy/php-pdo/udemy/lista-tarefas/back-end/app_lista_tarefas/tarefa.service.php';
+	require_once 
+	'/var/www/html/udemy/php-pdo/udemy/lista-tarefas/back-end/app_lista_tarefas/conexao.php';
 
 
 
