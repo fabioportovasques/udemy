@@ -84,7 +84,7 @@
 					<div class="container pagina">
 						<div class="row">
 							<div class="col">
-								<h4>Tarefas</h4>
+								<h4>Todas Tarefas</h4>
 								<hr />
 								
 								<?php foreach($tarefas as $indice => $tarefa) { ?>
