@@ -143,7 +143,7 @@
 			</div>
 		</div>
 		<div class="bg-success pt-2 text-white d-flex justify-content-center">
-				<h5> >>Construido por Fábio Vasques<< </h5>
+				<h5> >>Desenvolvido por Fábio Vasques<< </h5>
 		</div>
 		
 	</body>
