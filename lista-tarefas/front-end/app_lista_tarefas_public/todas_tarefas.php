@@ -94,7 +94,7 @@
 		<nav class="navbar navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+					<img src="img/logo-defend.png" width="30" height="30" class="d-inline-block align-top" alt="">
 					App Lista Tarefas
 				</a>
 			</div>
@@ -142,5 +142,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="bg-success pt-2 text-white d-flex justify-content-center">
+				<h5> >>Construido por Fábio Vasques<< </h5>
+		</div>
+		
 	</body>
 </html>

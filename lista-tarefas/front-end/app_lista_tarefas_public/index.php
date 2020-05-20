@@ -98,8 +98,8 @@
 		<nav class="navbar navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-					App Lista Tarefas
+					<img src="img/logo-defend.png" width="30" height="30" class="d-inline-block align-top" alt="">
+					App Lista Tarefas 
 				</a>
 			</div>
 		</nav>
@@ -134,17 +134,24 @@
 									" onclick="editar(<?= $tarefa->id ?> , '<?= $tarefa->tarefa ?>' )"></i>
 								<i class="fas fa-check-square fa-lg text-success" onclick="marcarRealizda(<?= $tarefa->id ?>)"></i>
 									
+								
+									
 								</div>
 								</div>
 
 							<?php } ?>
 							
-		
+							
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="bg-success pt-2 text-white d-flex justify-content-center">
+				<h5> >>Construido por Fábio Vasques<< </h5>
+			</div>
+		
 	</body>
 </html>

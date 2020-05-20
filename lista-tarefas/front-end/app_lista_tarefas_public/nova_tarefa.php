@@ -13,7 +13,7 @@
 		<nav class="navbar navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+					<img src="img/logo-defend.png" width="30" height="30" class="d-inline-block align-top" alt="">
 					App Lista Tarefas
 				</a>
 			</div>
@@ -45,7 +45,7 @@
 								<form method="post" action="tarefa_controller.php?acao=inserir">
 									<div class="form-group">
 										<label>Descrição da tarefa:</label>
-										<input type="text" class="form-control" name="tarefa" placeholder="Exemplo: Lavar o carro">
+										<input type="text" class="form-control" name="tarefa" placeholder="Ex: Ligar para op suporte">
 									</div>
 
 									<button class="btn btn-success">Cadastrar</button>
@@ -56,5 +56,7 @@
 				</div>
 			</div>
 		</div>
+		
+		
 	</body>
 </html>
