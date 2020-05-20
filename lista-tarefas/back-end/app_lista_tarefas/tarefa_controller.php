@@ -1,10 +1,6 @@
 <?php
 
 	/*
-	require "/var/www/html/app_lista_tarefas/tarefa.model.php";
-	require "/var/www/html/app_lista_tarefas/tarefa.service.php";
-	require "/var/www/html/app_lista_tarefas/conexao.php";
-	*/
 
 	require_once 
 	'/var/www/html/udemy/php-pdo/udemy/lista-tarefas/back-end/app_lista_tarefas/tarefa.model.php';
@@ -12,6 +8,12 @@
 	'/var/www/html/udemy/php-pdo/udemy/lista-tarefas/back-end/app_lista_tarefas/tarefa.service.php';
 	require_once 
 	'/var/www/html/udemy/php-pdo/udemy/lista-tarefas/back-end/app_lista_tarefas/conexao.php';
+
+	*/
+
+	require_once 'C:\xampp\htdocs\udemy\lista-tarefas\back-end\app_lista_tarefas\tarefa.model.php';
+	require_once 'C:\xampp\htdocs\udemy\lista-tarefas\back-end\app_lista_tarefas\tarefa.service.php';
+	require_once 'C:\xampp\htdocs\udemy\lista-tarefas\back-end\app_lista_tarefas\conexao.php';
 
 
 
@@ -35,6 +37,18 @@
 
 		$tarefaService = new TarefaService($conexao, $tarefa);
 		$tarefas = $tarefaService->recuperar();
-	}
+	} else if($acao == 'atualizar'){
+		
+		$tarefa = new Tarefa();
+		$tarefa->__set('id', $_POST['id']);
+		$tarefa->__set('tarefa', $_POST['tarefa']);
+
+		$conexao = new Conexao();
+		$tarefaService = new tarefaService($conexao, $tarefa);
+		if ($tarefaService -> atualizar()){
+
+			header('location:todas_tarefas.php');
+		}
+	}	
 
 ?>
